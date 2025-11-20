@@ -24,7 +24,7 @@
             android:layout_height="277dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:background="@drawable/img_2023_"
+            android:background="@drawable/banner_andr"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
