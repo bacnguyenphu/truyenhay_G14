@@ -300,13 +300,13 @@ public class HomeActivity extends AppCompatActivity {
                 aboutMessage.append("XÂY DỰNG ỨNG DỤNG ĐỌC SÁCH\n\n");
                 aboutMessage.append("Giáo viên hướng dẫn: ThS. Đỗ Hữu Công\n");
                 aboutMessage.append("Lớp: 20242IT6029001\n");
-                aboutMessage.append("Nhóm: 8\n");
+                aboutMessage.append("Nhóm: 14\n");
                 aboutMessage.append("Sinh viên thực hiện:\n");
-                aboutMessage.append(" - Nguyễn Viết Anh – 2022604934\n");
-                aboutMessage.append(" - Nguyễn Hoàng Hiệp – 2022604601\n");
-                aboutMessage.append(" - Nguyễn Xuân Nhiên – 2022604916\n");
-                aboutMessage.append(" - Phạm Chí Thành – 2022605231\n");
-                aboutMessage.append(" - Cao Xuân Sơn – 2022600457\n");
+                aboutMessage.append(" - Nguyễn Phú Bắc \n");
+                aboutMessage.append(" - Bùi Văn Hồ Bắc \n");
+                aboutMessage.append(" - Phạm Văn Đức \n");
+                aboutMessage.append(" - Trần Mạnh Cầm \n");
+                aboutMessage.append(" - Nguyễn Đức Anh \n");
 
                 new AlertDialog.Builder(HomeActivity.this)
                         .setTitle("Thông tin về ứng dụng")

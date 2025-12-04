@@ -21,6 +21,8 @@ public class BookDAO {
     public Context getContext(){
         return context;
 }
+
+    // them sach
     public long insertBook(Book book) {
         SQLiteDatabase db = dbHelper.getWritableDatabase();//mở csdl cho phép thêm sửa xóa
         ContentValues values = new ContentValues();//chèn dl vào bảng
