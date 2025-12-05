@@ -88,7 +88,7 @@ public class ChapterListActivity extends AppCompatActivity {
         String bookTitle = getIntent().getStringExtra("book_title");
 
         if (pdfPath == null || pdfPath.isEmpty() || bookTitle == null) {
-            Toast.makeText(this, "Dữ liệu sách không hợp lệ", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Dữ liệu truyện không hợp lệ", Toast.LENGTH_SHORT).show();
             finish();
             return;
         }

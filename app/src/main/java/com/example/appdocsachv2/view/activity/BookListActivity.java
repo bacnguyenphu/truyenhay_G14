@@ -114,13 +114,13 @@ public class BookListActivity extends AppCompatActivity {
             tvTitle.setText("Đọc tiếp");
             btnAddBook.setVisibility(View.GONE);
         } else if (listType.equals("favorite_books")) {
-            tvTitle.setText("Sách yêu thích");
+            tvTitle.setText("Truyện yêu thích");
             btnAddBook.setVisibility(View.GONE);
         } else if (fromSearch) {
             tvTitle.setText("Kết quả tìm kiếm");
             btnAddBook.setVisibility(View.GONE);
         } else {
-            tvTitle.setText("Quản lý sách");
+            tvTitle.setText("Quản lý truyện");
             btnAddBook.setVisibility(View.VISIBLE);
         }
 

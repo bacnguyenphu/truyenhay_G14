@@ -93,7 +93,7 @@ public class ReadBookActivity extends AppCompatActivity {
         }
 
         // Set tiêu đề sách
-        tvBookTitle.setText(bookTitle != null ? bookTitle : "Tên sách");
+        tvBookTitle.setText(bookTitle != null ? bookTitle : "Tên truyện");
 
         // Load danh sách chương từ DB
         chapterList = chapterDAO.getChaptersByBookId(bookId);

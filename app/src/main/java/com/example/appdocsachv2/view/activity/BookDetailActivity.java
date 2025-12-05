@@ -291,7 +291,7 @@ public class BookDetailActivity extends AppCompatActivity {
     private void navigateToReadBook(int bookId, int chapterIdOrPage) {
         Book book = bookController.getBookById(bookId);
         if (book == null) {
-            Toast.makeText(this, "Không tìm thấy sách", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Không tìm thấy truyện", Toast.LENGTH_SHORT).show();
             return;
         }
         Intent intent = new Intent(this, ReadBookActivity.class);
@@ -307,7 +307,7 @@ public class BookDetailActivity extends AppCompatActivity {
     private void navigateToChapterList(int bookId) {
         Book book = bookController.getBookById(bookId);
         if (book == null) {
-            Toast.makeText(this, "Không tìm thấy sách", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Không tìm thấy truyện", Toast.LENGTH_SHORT).show();
             return;
         }
         Intent intent = new Intent(this, ChapterListActivity.class);

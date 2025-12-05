@@ -221,7 +221,7 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.BookViewHolder
                 btnDelete.setOnClickListener(v -> {
                     new AlertDialog.Builder(context)
                             .setTitle("Xác nhận xóa")
-                            .setMessage("Bạn có chắc muốn xóa cuốn sách '" + book.getTitle() + "' không?")
+                            .setMessage("Bạn có chắc muốn xóa cuốn truyện '" + book.getTitle() + "' không?")
                             .setPositiveButton("Có", (dialog, which) -> {
                                 if (bookController != null) {
                                     if (bookController.deleteBook(book.getBookId())) {

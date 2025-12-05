@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Quản lý sách"
+            android:text="Quản lý truyện"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -39,7 +39,7 @@
             android:padding="6dp"
             android:src="@drawable/ic_add"
             android:background="@drawable/bg_circle_blue"
-            android:contentDescription="Thêm sách"
+            android:contentDescription="Thêm truyện"
             android:visibility="visible"/>
     </LinearLayout>
 

@@ -297,9 +297,9 @@ public class HomeActivity extends AppCompatActivity {
                 aboutMessage.append("BÁO CÁO THỰC NGHIỆM THUỘC HỌC PHẦN\n");
                 aboutMessage.append("PHÁT TRIỂN ỨNG DỤNG TRÊN THIẾT BỊ DI ĐỘNG\n\n");
                 aboutMessage.append("ĐỀ TÀI\n");
-                aboutMessage.append("XÂY DỰNG ỨNG DỤNG ĐỌC SÁCH\n\n");
+                aboutMessage.append("XÂY DỰNG ỨNG DỤNG ĐỌC TRUYỆN\n\n");
                 aboutMessage.append("Giáo viên hướng dẫn: ThS. Đỗ Hữu Công\n");
-                aboutMessage.append("Lớp: 20242IT6029001\n");
+                aboutMessage.append("Lớp: 20251IT6029004\n");
                 aboutMessage.append("Nhóm: 14\n");
                 aboutMessage.append("Sinh viên thực hiện:\n");
                 aboutMessage.append(" - Nguyễn Phú Bắc \n");

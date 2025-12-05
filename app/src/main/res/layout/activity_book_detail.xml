@@ -45,7 +45,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_weight="1"
-                android:contentDescription="Ảnh Sách"
+                android:contentDescription="Ảnh truyện"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/img_2023_" />
 
@@ -61,7 +61,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:text="Tên Sách 1"
+                    android:text="Tên truyện 1"
                     android:textSize="20dp"
                     android:textStyle="bold" />
 
@@ -174,7 +174,7 @@
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sách cùng thể loại"
+            android:text="Truyện cùng thể loại"
             android:textSize="20dp"
             android:textStyle="bold"/>
 

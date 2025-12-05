@@ -112,10 +112,10 @@ public class AddEditBookActivity extends AppCompatActivity {
         if (bookId != -1) {
             loadBookData(bookId);
             loadChaptersData(bookId);
-            tvTitle.setText("Sửa sách");
+            tvTitle.setText("Sửa truyện");
             tvTitle.setTextSize(20);
         } else {
-            tvTitle.setText("Thêm sách");
+            tvTitle.setText("Thêm truyện");
             tvTitle.setTextSize(20);
         }
         if (bookId == -1) {
@@ -351,12 +351,12 @@ public class AddEditBookActivity extends AppCompatActivity {
             if (bookId == -1) {
                 bookId = (int) bookController.addBook(book);
                 if (bookId == -1) {
-                    throw new Exception("Thêm sách thất bại");
+                    throw new Exception("Thêm truyện thất bại");
                 }
             } else {
                 book.setBookId(bookId);
                 if (!bookController.updateBook(book)) {
-                    throw new Exception("Cập nhật sách thất bại");
+                    throw new Exception("Cập nhật truyện thất bại");
                 }
             }
 
@@ -368,7 +368,7 @@ public class AddEditBookActivity extends AppCompatActivity {
                 }
             }
 
-            Toast.makeText(this, bookId == -1 ? "Thêm sách và chương thành công" : "Cập nhật sách và chương thành công", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, bookId == -1 ? "Thêm truyện và chương thành công" : "Cập nhật sách và chương thành công", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(AddEditBookActivity.this, BookListActivity.class);
             intent.putExtra("list_type", "my_books");
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);

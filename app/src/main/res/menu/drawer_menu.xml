@@ -3,7 +3,7 @@
     <item
         android:id="@+id/nav_my_books"
 
-        android:title="Sách của tôi" />
+        android:title="Truyện của tôi" />
     <item
         android:id="@+id/nav_continue_reading"
 
@@ -11,7 +11,7 @@
     <item
         android:id="@+id/nav_favorite_books"
 
-        android:title="Sách yêu thích" />
+        android:title="Truyện yêu thích" />
     <item
         android:id="@+id/nav_logout"
 
